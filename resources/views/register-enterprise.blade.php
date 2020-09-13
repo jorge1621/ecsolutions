@@ -63,7 +63,7 @@
     </head>
     <body>
     	<nav class="navbar navbar navbar-dark bg-primary">
-  			<a class="navbar-brand" href="#">
+  			<a class="navbar-brand" href="http://ecsolutions.tonohost.com/">
     			<img src="img/sa1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
     			<strong><font face="Lucida Calligraphy">ECSOLUTIONS</font></strong>
   			</a>
@@ -125,6 +125,14 @@
                     <input type="checkbox"  name="plan3" value="plan3"><strong> Trimestre</strong></input>
                     <input type="checkbox"  name="plan6" value="plan6"><strong> Semestre</strong></input>
                     <input type="checkbox"  name="plan12" value="plan12"><strong> Año</strong></input>
+                    <br>
+                    <label for=""><strong>Aplicaciones de interes</strong></label>
+                    <br>
+                    <input type="checkbox"  name="finished" value="finished"><strong> Productos terminados </strong></input>
+                    <input type="checkbox"  name="production" value="production"><strong> Confección o producción</strong></input>
+                    <input type="checkbox"  name="launch_store" value="launch_store"><strong> Restaurantes </strong></input>
+                    <input type="checkbox"  name="betting_center" value="betting_center"><strong> Centros hipicos </strong></input>
+                    <input type="checkbox"  name="seller" value="seller"><strong> Vendedores </strong></input>
                     <br><br>
                     <button class="btn btn-primary" type="submit">Guardar</button>
 

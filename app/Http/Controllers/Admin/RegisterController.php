@@ -42,6 +42,7 @@ class RegisterController extends Controller
         	'image' => $nombre,
         	'email' => $request['email'],
         	'plan' => $plan,
+            'type_bussines' => $request['finished'].",".$request['production'].",".$request['launch_store'].",".$request['betting_center'].",".$request['seller'],
         	'fecha_solicitud' => date('Y-m-d')
         ]);
 

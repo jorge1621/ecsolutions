@@ -16,6 +16,7 @@ class Register extends Model
     	'image',
     	'plan',
     	'fecha_solicitud',
-        'email'
+        'email',
+        'type_bussines'
     ];
 }

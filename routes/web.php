@@ -28,9 +28,9 @@ Route::get('/create-user', 'UsersController@index');
 
 Route::post('/save-user', 'auth\RegisterController@create');
 
-Route::get('/adminUser', 'UsersController@admin');
+Route::get('adminUser', 'UsersController@admin');
 
-Route::get('/login', 'UsersController@login');
+Route::get('/login', 'UsersController@login'); 
 
 Route::get('/registerUser', function(){
 	if (Auth::check()) {
